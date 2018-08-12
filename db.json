@@ -8,13 +8,13 @@
     }
   ],
   "bill": {
-    "value": 100000,
+    "value": 87997,
     "currency": "RUB"
   },
   "categories": [
     {
       "name": "Дом",
-      "capacity": 15000,
+      "capacity": 15001,
       "id": 1
     },
     {
@@ -26,6 +26,16 @@
       "id": 3,
       "name": "Машина",
       "capacity": 7000
+    },
+    {
+      "name": "new2",
+      "capacity": 213123,
+      "id": 4
+    },
+    {
+      "name": "toster",
+      "capacity": 55,
+      "id": 5
     }
   ],
   "events": [
@@ -68,6 +78,22 @@
       "date": "10.06.2017 14:01:58",
       "id": 5,
       "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "outcome",
+      "amount": 1001,
+      "category": 5,
+      "date": "12.08.2018 20:07:28",
+      "description": "test",
+      "id": 6
+    },
+    {
+      "type": "income",
+      "amount": 1001,
+      "category": 5,
+      "date": "12.08.2018 20:11:50",
+      "description": "test2",
+      "id": 7
     }
   ]
 }

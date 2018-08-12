@@ -13,7 +13,6 @@ export class BaseApi {
   }
 
   public get(url: string = ''): Observable<any> {
-    console.log('hit');
     return this.http.get(this.getUrl(url));
   }
   public post(url: string = '', data: any = {}): Observable<any> {
